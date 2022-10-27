@@ -1,0 +1,242 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* portfolio */
+body{
+    margin-top: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 239, 250);
+}
+
+header{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding: 20px;
+    background-color: rgb(221, 239, 250);
+    width: 100%;
+    padding-top: 30px;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgb(1, 86, 135);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home h2{
+    color: rgb(23, 75, 159);
+}
+
+
+
+.about-me{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px 30px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+}
+ h3{
+    color: rgb(35, 34, 34);
+    font-size: 1.3em;
+}
+.blue{
+    color: rgb(1, 86, 135);
+}
+.about-me div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+.skills{
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    flex-direction: column;
+}
+.skill-flex{
+    display: flex;
+    margin-top: 20px;
+}
+.list-skills{
+    display: flex;
+    
+}
+.skills .first{
+    background-color: white;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    border-radius: 15px;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 3px rgba(1, 86, 135, 0.594);
+}
+.imagebackground{
+    background-color: black;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 0;
+    
+}
+
+.skills .first img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: all 1s;
+}
+.skills .first h4{
+    font-size: 1em;
+}
+.skills .first img:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    object-fit: cover;
+
+}
+aside{
+   background: rgb(155, 197, 255);
+   padding-top: 0;
+   height: fit-content;
+   
+}
+aside h5{
+    background-color: rgb(13, 130, 247);
+    margin-top: 0;
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+aside ul{
+    padding-right:20px;
+}
+
+
+
+.project{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project h3{
+    color: rgb(1, 86, 135);
+}
+
+.project-flex{
+    display: flex;
+    
+}
+.first{
+    margin-right: 70px;
+}
+.project-flex .project-card{
+   display: flex;
+   background-color: rgba(211, 211, 211, 0.284);
+   padding: 15px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+
+   align-items: center;
+}
+.project-card .h4{
+    color: rgb(2, 131, 191);
+}
+.project-card img{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+
+.contact{
+    display: flex;
+    
+    height: 20vh;
+    justify-content: center;
+    padding: 50px;
+    background-color: white;
+    align-items: center;
+}
+
+.contact li{
+    list-style: none;
+}
+.hobbies{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hobbies h3{
+    text-align: center;
+}
+
+.hobbies li{
+    margin-right: 10px;
+    background-color: lightgray;
+    padding:  8px 12px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.hobbies ul{
+    display: flex;
+    
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer li{
+    list-style: none;
+}
+footer ul{
+    padding: 0;
+}
